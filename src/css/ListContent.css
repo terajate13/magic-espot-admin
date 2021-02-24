@@ -1,0 +1,47 @@
+
+.background-inh {
+    background-color: inherit;
+    box-shadow: none;
+}
+
+.list-content-panel img {
+    width:20%;
+}
+
+.content-containner img {
+    border-radius: 0px !important;
+    width: 40%;
+}
+.card-footer{
+    text-align: center;
+    color: red;
+}
+.list-content-header{
+    margin: 10px;
+}
+.list-content-body{
+    margin: 10px;
+    word-wrap: break-word;
+}
+
+.list-content-containner {
+    color: black;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+    border: solid 1px;
+    border-color: lightgray;
+    border-radius: 5px;
+    margin: 10px;
+    
+    
+}
+
+/* .list-content-containner :hover {
+    transform: scale(1.03);
+} */
+
+.list {
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    overflow-x: scroll;
+    display: flex;
+}
